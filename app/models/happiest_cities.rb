@@ -1,0 +1,2 @@
+class HappiestCities < ApplicationRecord
+end

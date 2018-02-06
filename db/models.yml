@@ -1,3 +1,17 @@
+City
+  rank: integer
+  name: text
+  photo_url: text
+
+
+
+
+
+
+
+
+
+
 # Example:
 #
 # Book
