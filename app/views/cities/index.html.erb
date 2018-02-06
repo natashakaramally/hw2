@@ -1,2 +1,12 @@
-<h1>This is a placeholder page.</h1>
-<p>To modify this page, edit the template at <code>app/views/cities/index.html.erb</p>
+<h1>Happiest Cities in America</h1>
+
+<%= City.all.inspect %>
+
+<ol>
+  <% for city in City.all %>
+    <li>
+      <%= city.name %>
+      <img src="<%= city.photo_url %>">
+    </li>
+  <% end %>
+</ol>
